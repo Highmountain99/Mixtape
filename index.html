@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mixtape</title>
+  <meta name="description" content="En ny spellista varje vecka – från en ny vän.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📼</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="./">MIX<span>TAPE</span></a>
+    <div id="header-user" class="header-user"></div>
+  </header>
+  <div id="demo-banner" class="demo-banner" hidden>
+    Demoläge – inget sparas. Fyll i <code>config.js</code> för att koppla in Supabase (se README).
+  </div>
+  <main id="app" class="app">
+    <p class="loading">Spolar tillbaka bandet…</p>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
